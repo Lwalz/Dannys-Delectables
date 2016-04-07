@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Dannys Delectables</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Chewy|Cookie|Open+Sans|Quicksand" rel="stylesheet" type="text/css">
-<link rel="icon" type="image/png" href="images/icon.png" sizes="16x16">
+<link rel="icon" type="../image/png" href="images/icon.png" sizes="16x16">
 
 </head>
 
@@ -48,7 +48,7 @@
 	<section id="menubar">MENU</section>
 </div>
 
-<a href="pages/login.html"><img src="images/chevron-01.png" id="chevron"></a>
+<a href="login.html"><img src="../images/chevron-01.png" id="chevron"></a>
 	
 <div id="order">
 		<div id="orderinfo">
@@ -69,14 +69,32 @@
 </div>
 
 <section id="container">
-	<h2>WHO WE ARE</h2>
-	Inspired by our grandfather Danny, the four Shlevek siblings bring the tasty creations that he taught us to your table everyday. We offer a variety of sandwiches, salads, and pizzas. We do not cut short on quality and we want you to experience the same meals out grandfather taught us. Stop by at any of our area locations and don't be afraid to say hi!
+	Login:<br>
+	Username:<input type="text" name="fname"><br>
+	Password:<input type="text" name="fname">
+	<input type="button" value="SUBMIT"></input>
 
-	<section id="locations">
-	<h2>LOCATIONS</h2>
-	<img src="images/Notes/Group.png">
+	<br>
+	Register<form id="register"><br>
+		First Name:<input type="text" name="fname"><br>
+		Last Name:<input type="text" name="lname"><br>
+		Address:<input type="text" name="address"><br>
+		City:<input type="text" name="city"><br>
+		State:<input type="text" name="state"><br>
+		Zip Code:<input type="text" name="zip"><br>
+		<hr>
+		Credit Card: <select>
+			<option value="VISA">VISA</option>
+			<option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
+			<option value="CAPITAL ONE">CAPITAL ONE</option>
+			<option value="CITI">CITI</option>
+		</select><br>
+		Credit Card Number:<input type="text" name="ccn"><br>
+		Expiration Date: <input type="text" name="exp"><br>
+		Security Code: <input type="text" name="sec"><br>
+		<input type="button" value="submit"></input>
 
-	</section>
+	</form>
 </section>
 
 <section id="footer">

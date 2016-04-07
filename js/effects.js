@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$('#menubar').click(function(){
 		$('.menuitems').toggle('slow')
+		$('#menu').css('z-index','-1')
+
 	});
 	$('#sand').click(function(){
 		$('.optionssand').toggle('slow')
