@@ -7,7 +7,7 @@ head,body,p,div,ul,li{
 
 
 body{
-	background-color: #f6f6f6
+	background-color: #f6f6f6;
 }
 
 #banner{
@@ -199,6 +199,4 @@ img{
 	margin-left: -20%;
 	margin-top:5em;
 }
-a:-webkit-any-link {
-	color:inherit;
-}
+
