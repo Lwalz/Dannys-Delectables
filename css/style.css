@@ -199,6 +199,6 @@ img{
 	margin-left: -20%;
 	margin-top:5em;
 }
-a{
-	color:black;
+a:-webkit-any-link {
+	color:inherit;
 }
